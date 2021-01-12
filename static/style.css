@@ -1,0 +1,474 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+html{
+  height: 200%;
+  color: white;
+}
+h1, p{
+  font-family: Lato, sans-serif;
+}
+body {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  grid-template-rows: auto 50px;
+  height: 100%;
+  background: rgb(72, 72, 72);
+}
+
+#logo{
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+#navphone{
+  display: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 5%;
+  text-align: center;
+  flex-direction: column;
+  align-items: start;
+  list-style-type: none;
+  position: sticky;
+  top: 10%;
+}
+ul li {
+  padding: 6px 0;
+}
+ul li a {
+  position: relative;
+  padding: 4px 0;
+  font-family: Lato, sans-serif;
+  color: #b8c8c9;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+ul li a::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: rgb(145, 240, 79);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s;
+}
+ul li a:hover {
+  color: white;
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.56));
+
+}
+ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+#main{
+  margin: 0;
+  padding: 0;
+  grid-column: 2/7;
+  background-color: rgb(154, 254, 121);
+  color: black;
+  border: none;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 5px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: repeat(auto, 1fr);
+  grid-template-columns: auto;
+}
+#main .secc{
+  margin: 10px;
+  grid-column: 1/3;
+}
+#foother{
+  grid-row: 3;
+  grid-column: 1/7;
+}
+.actimg{
+    width: 100%;
+    height: 25%;
+    object-fit: cover;
+}
+.secc #photoK {
+    width: 200px;
+}
+.secc #photoA {
+    width: 200px;
+}
+.secc #photoD {
+    width: 200px;
+}
+.form_contact{
+    text-align: center;
+    color: white;
+    background-color: rgb(112, 112, 112);
+    grid-row: 1;
+    margin: 30px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.form_contact hr{
+    border-color: black;
+    border: none;
+    border-top: solid;
+    border-width: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.form_contact textarea{
+    max-width: 40vw;
+    max-height: 800px;
+    border-radius: 5px;
+    margin: 10px
+}
+#info{
+    background-color: rgb(96, 95, 95);
+    width: 20vw;
+    margin-left:auto;
+    margin-right: auto;
+    filter: drop-shadow(0 0 15px rgb(96, 95, 95));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.social_contact{
+    text-align: center;
+}
+.konttable{
+    margin: auto;
+
+}
+.konttable tr{
+    transition: all 0.27s ease-in;
+}
+.konttable tr:hover{
+    filter: drop-shadow(0 0 15px rgb(64, 64, 64));
+    transition: all 0.27s ease-in;
+}
+
+#seccontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50vh, auto));
+    grid-auto-rows: auto;
+    margin: 4vmin;
+}
+
+.kwadrat {
+    background: #505050;
+    margin: 4vmin;
+    height: 50vh;
+}
+
+.kwadrat > img {
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+}
+
+.kwadrat img {
+    filter: brightness(0.9);
+    transition: all ease-in 0.37s;
+}
+
+.kwadrat img:active {
+    filter: drop-shadow(0 0 5vw #242424);
+}
+
+.kwadrat img:hover {
+    filter: brightness(1.1);
+    transform: scale(1.01);
+    transition: all ease-in 0.27s;
+}
+
+.kwadrat > p {
+    overflow-y: auto;
+    height: 55%;
+    margin: 1vh;
+    color: #fff;
+    /*text-align: center;*/
+}
+
+.title {
+    text-align: center;
+    color: #FFFFFF;
+    height: 5%;
+    background: none;
+    margin: 1%;
+}
+.title p{
+    margin: 0;
+}
+
+#lessonWindow {
+    background: rgba(92, 92, 92, 0.87);
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 98%;
+    width: 98%;
+    top: 0;
+    display: none;
+    text-align: center;
+    border-width: 2px;
+    border: outset;
+    border-color: black;
+    border-radius: 5px;
+}
+
+#videoLesson {
+    margin-top: 0%;
+    height: 75%;
+    width: 75%;
+}
+
+#buttonLesson {
+    background: rgb(104, 167, 83);
+    height: 100%;
+    font-size: 100%;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    transition: all ease-in 0.27s;
+}
+
+#buttonLesson:hover {
+        background: rgb(164, 241, 136);
+        transition: all ease-in 0.27s;
+    }
+
+.close-container {
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.leftright {
+    height: 4px;
+    width: 50px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: #92DF3C;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in;
+}
+
+.rightleft {
+    height: 4px;
+    width: 50px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: #92DF3C;
+    border-radius: 2px;
+    transform: rotate(-45deg);
+    transition: all 0.3s ease-in;
+}
+
+label {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in;
+    opacity: 0;
+}
+
+.close-container:hover .leftright {
+    transform: rotate(-45deg);
+    background-color: #F25C66;
+}
+
+.close-container:hover .rightleft {
+    transform: rotate(45deg);
+    background-color: #F25C66;
+}
+.form_register{
+    width: 50%;
+    margin: auto;
+    margin-top: 20%;
+    text-align: center;
+    border-color: black;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background: rgb(178, 249, 157);
+    box-shadow: 0 5px 15px rgba(27, 27, 27, 0.4);
+    padding: 5px;
+}
+.form_register input{
+    width: 200px;
+    border-radius: 0;
+    border-color: black;
+    border-width: 1px;
+    background: rgb(224, 237, 255);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #dddddd;
+    transition: all ease-in 0.18s;
+}
+.form_register input:hover{
+    background: white;
+    transition: all ease-in 0.18s;
+}
+
+.form_register p{
+    text-transform: uppercase;
+}
+.div-form{
+    border: none;
+    border-top: solid;
+    border-width: 1px;
+    width: 90%;
+}
+.errorlist{
+    position:static;
+    font-size: 14px;
+    width: 90%;
+    margin: auto;
+}
+#login1{
+    color: blue;
+}
+.action{
+    text-align: center;
+    margin-top: 10px;
+}
+#logout{
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 70px;
+    font-family: Lato;
+    margin: auto;
+    background: rgb(241, 70, 70);
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 0.27s ease-in;
+    box-shadow: 0 5px 15px rgba(27, 27, 27, 0.1);
+    text-decoration: none;
+    color: black;
+}
+#logout:hover{
+    transform: scale(1.03);
+    transition: all 0.27s ease-in;
+    box-shadow: 0 5px 15px rgba(27, 27, 27, 0.4);
+}
+@media (max-width:700px) {
+  body{
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 50px auto 50px;
+  }
+  .form_contact textarea{
+      max-width: 200px;
+      width: 200px;
+  }
+  #navbar{
+    margin: 0;
+    align-items: start;
+    display: none;
+  }
+  #navphone{
+    margin: 0;
+    padding: 0;
+    display: block;
+    grid-row: 1;
+    grid-column: 1/7;
+    background: transparent;
+    text-align: center;
+  }
+  #main{
+    grid-row: 2;
+    grid-column: 1/7;
+  }
+  #lessonWindow{
+      z-index: 2;
+  }
+  #navphone{
+      z-index: 1;
+  }
+  #navphone nav {
+    width : 50%;
+    background: rgb(198, 245, 188);
+    margin: auto;
+  }
+  #navphone span {
+    background: #2d2f31;
+    padding: 10px;
+    color: white;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+    display: block;
+  }
+  #navphone span::after {
+    float: right;
+    right: 10%;
+    content: "+";
+  }
+  #navphone #touch {
+    position: absolute;
+    opacity: 0;
+    height: 0px;
+  }
+  #navphone #touch:checked + .slide {
+    height: 325px;
+  }
+  #navphone .slide {
+    clear:both;
+    width:100%;
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    transition: height .4s ease;
+  }
+  #navphone .slide li {
+    padding: 15px;
+  }
+  #navphone li a {
+    text-decoration : none;
+    color: black;
+  }
+  #navphone li:hover{
+    filter: drop-shadow(0 0 50px #c0c0c0);
+  }
+  #main .secc h1{
+    font-size: 200%;
+  }
+  #main .secc p{
+    font-size: 150%;
+  }
+  .secc #photoK {
+      width: 100%;
+  }
+  .secc #photoA {
+      width: 100%;
+  }
+  .secc #photoD {
+      width: 100%;
+  }
+  #info{
+      width: 30vw;
+  }
+  #seccontainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(30vh, auto));
+      grid-auto-rows: auto;
+      margin: 4vmin;
+  }
+
+  .form_register{
+      width: 80%;
+  }
+  .form_register input{
+      width: 80%;
+  }
+}

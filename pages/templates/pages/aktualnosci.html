@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+
+{% block main %}
+
+{% for text in listoftexts %}
+
+<section id="section-{{obja.id}}" class="secc">
+    {% if text.image %}
+        <img class='actimg' src="../..{{ text.image.url }}">
+    {% endif %}
+
+    <h1>{{ text.title }}</h1>
+    <p>{{ text.desc }}</p>
+	<br>
+
+    {% if text.link_name %}
+        <p><a href="{{  text.link }}">{{ text.link_name }}</a><p>
+    {% endif %}
+</section>
+
+{% endfor %}
+
+{% endblock %}

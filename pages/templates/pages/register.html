@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+
+{% block main  %}
+
+<form class='form_register' method="POST" action="">
+    {% csrf_token %}
+    <p>Załóż konto na naszym portalu</p>
+    {{ form.username }}
+    <!hr class='div-form'>
+    {{ form.first_name }}
+    <hr class='div-form'>
+    {{ form.email }}
+    <hr class='div-form'>
+    {{ form.password1 }}
+    <hr class='div-form'>
+    {{ form.password2 }}
+    <hr class='div-form'>
+    <input class="button1" type="submit" name="Create User" value="Zatwierdz" style=''>
+    <br>
+    <a class="login1" href = '{% url "pages:login_view" %}'>Już masz konto? Zaloguj!</a>
+    {{ form.errors }}
+</form>
+
+<script type="text/javascript">
+    document.getElementById("id_username").placeholder = " Login:";
+    document.getElementById("id_first_name").placeholder = " Imię:";
+    document.getElementById("id_email").placeholder = " Email:";
+    document.getElementById("id_password1").placeholder = " Hasło:";
+    document.getElementById("id_password2").placeholder = " Powtórz hasło:";
+
+</script>
+
+{% endblock %}

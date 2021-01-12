@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+<form class='form_register' method="POST" action="">
+    {% csrf_token %}
+    <p>Zaloguj</p>
+    <input type="text" name="username" placeholder=' Login:'>
+    <br>
+    <input type="password" name="password" placeholder=" Hasło:">
+    <br>
+    <input class="button1" type="submit" name="Create User">
+    <br>
+    {% for message in messages %}
+        <p id="info"> {{ message }} </p>
+        <br>
+    {% endfor %}
+    <a class="login1" href = '{% url "pages:register_view" %}'>Nie masz konta? Załóż już teraz!</a>
+</form>
+
+{% endblock %}

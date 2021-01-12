@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block main %}
+
+<form class='form_register' method="POST" style='margin-top:100px;'>
+    {% csrf_token %}
+    <p>Kontakt z adminiatracją Już Dziś</p>
+
+    <input class="uname2" type='text' name="title" maxlength="30" minlength="2" placeholder=" Tytuł">
+
+    <textarea class="uname2" type="text" name="desc" maxlength="20000" minlength="10" rows="4" cols="50" style='width:90%;' placeholder="Opis"></textarea>
+
+    <input class="uname2" type='email' name="email" maxlength="40" minlength="2" placeholder=" Email do kontaktu" value="{% if def_email  %} {{ def_email }} {% endif %}">
+    <hr class='div-form'>
+    <input class="button1" type="submit" name="Send">
+    {% if info_message %}
+        <div id='info'>
+            <p>(!) Info</p>
+            <p>{{ info_message }}</p>
+        </div>
+    {% endif %}
+</form>
+
+<div id='social_contact'>
+    <table class="konttable" >
+            <tr>
+                <th><img class="log1" src='{% static "flogo.png" %}' style='height: 50px;'></th>
+                <th><a href="https://www.facebook.com/Ju%C5%BC-dzi%C5%9B-projekt-spo%C5%82eczny-102323845029962" style='text-decoration: none; color: white'>Facebook</a></th>
+            </tr>
+            <tr>
+                <th><img id="log2" src='{% static "inslogo.png"%}' style='height: 50px;'></th>
+                <th><a href="https://www.instagram.com/juzdzis/" style='text-decoration: none; color: white'>Instagram</a></th>
+            </tr>
+            <tr style='color:white;'>
+                <th><p class="log1" style='font-size: 50px; margin:0;'>@</p></th>
+                <th><a>administracja_projektu@juz-dzis.pl</a></th>
+            </tr>
+        </table>
+</div>
+
+{% endblock %}

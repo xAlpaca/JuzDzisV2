@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+<div class='profile'>
+    <form class='form_register' method="POST" action="">
+            {% csrf_token %}
+            <h1>Ustawienia</h1>
+            <hr class='div-form'>
+            <a class="fields">Podaj nowe imię </a><input class="uname1" type='text' name="first_name" maxlength="16" minlength="2" placeholder=" {{ first_name }}">
+            <br>
+            <a class="fields">Podaj nowe hasło </a><input class="uname1" type="password" name="password" maxlength="500" minlength="6" placeholder=" ******">
+            <br>
+            <a class="fields">Podaj nowy e-mail </a><input class="uname1" type="email" name="email" maxlength="50" minlength="6" placeholder=" {{ email }}">
+            <br>
+            <hr class='div-form'>
+            <a class="fields"></a>
+            <input class="button1" type="submit" name="Create User">
+            <br>
+            {% if sucess %}
+                {{ sucess }}
+            {% endif %}
+    </form>
+
+    <div class='action'>
+        <a id='logout' href="{% url 'pages:logout_view' %}">Wyloguj</a>
+    </div>
+</div>
+
+{% endblock %}

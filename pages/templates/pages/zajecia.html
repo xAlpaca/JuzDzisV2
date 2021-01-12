@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block main %}
+
+<div id='seccontainer'>
+    {% for lesson in listofLessons %}
+    <div class="kwadrat">
+        <img onclick="myFunction('{{ lesson.link }}')" src="../..{{ lesson.image.url }}">
+        <div class="title"><p>{{ lesson.title }}</p></div>
+        <p>{{ lesson.desc }}</p>
+    </div>
+    {% endfor %}
+</div>
+
+<script>
+    function myFunction(arg1) {
+        var div1 = document.getElementById("lessonWindow");
+        var label = document.getElementById("videoLesson");
+        if (div1.style.display === "none") {
+            div1.style.display = "block";
+            label.src = arg1;
+        } else {
+            div1.style.display = "none";
+        }
+    }
+</script>
+
+{% endblock %}

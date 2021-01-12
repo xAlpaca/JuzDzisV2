@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'style.css' %}" type="text/css">
+    <link rel="shortcut icon" href="{% static 'favicon.ico'%} " type='image/x-icon'>
+    <title>Już Dziś</title>
+  </head>
+  <body>
+    <div id='navbar'>
+      <a href="{% url 'pages:index_view' %}"><img src="{% static 'logo.png' %}" id='logo'></a>
+      <ul>
+        <li><a href="{% url 'pages:actual_view' %}">Aktualnosci</a></li>
+        <li><a href="{% url 'pages:onas_view' %}">O nas</a></li>
+        <li><a href="{% url 'pages:kontakt_view' %}">Kontakt</a></li>
+        <li><a href="{% url 'pages:zajecia_view' %}">Zajęcia</a></li>
+        <li><a href="{% url 'pages:profile_view' %}">Profil</a></li>
+      </ul>
+    </div>
+    <div id='navphone'>
+      <nav>
+      <label for="touch"><span>Menu</span></label>
+      <input type="checkbox" id="touch">
+      <ul class="slide">
+        <li style="padding-bottom:0;"><a href='{% url 'pages:index_view' %}'><img src="{% static 'logo.png' %}" style="height:50px;"></a></li>
+        <li><a href="{% url 'pages:actual_view' %}">Aktualnosci</a></li>
+        <li><a href="{% url 'pages:onas_view' %}">O nas</a></li>
+        <li><a href="{% url 'pages:kontakt_view' %}">Kontakt</a></li>
+        <li><a href="{% url 'pages:zajecia_view' %}">Zajęcia</a></li>
+        <li><a href="{% url 'pages:profile_view' %}">Profil</a></li>
+      </ul>
+      </nav>
+    </div>
+    <div id='main'>
+      {% block main %}
+
+      {% endblock %}
+    </div>
+    <div id='foother'>
+      <i>Strona stworzona w ramach konkursu "Zwolnieni z Teorii"</i>
+    </div>
+  </body>
+  <div id="lessonWindow">
+        <div class="close-container" onclick="myFunction('{{ lesson.link }}')">
+            <div class="leftright"></div>
+            <div class="rightleft"></div>
+        </div>
+        <iframe id="videoLesson" width="420" height="315" src="https://www.youtube.com/embed/gQkwzVnXyh4" frameborder="0">
+        </iframe>
+    </div>
+</html>
